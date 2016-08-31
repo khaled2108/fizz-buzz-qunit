@@ -21,3 +21,9 @@ QUnit.test('when input number is divisible by five and three then display fizzbu
     assert.strictEqual(FizzBuzz.proceed(60), 'fizzbuzz', '25 divisible by three and five');
 
 });
+
+test("when the input is not divisible by 3 or 5 then return the same",function(){
+    equal(FizzBuzz.proceed(1), 1);
+    equal(FizzBuzz.proceed(7), 7);
+    equal(FizzBuzz.proceed(19), 19);
+});
