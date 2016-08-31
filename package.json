@@ -1,23 +1,14 @@
 {
-  "name": "js-unit-test",
+  "name": "fizz-buzz-qunit",
   "version": "1.0.0",
-  "description": "js unit test projet tdd",
-  "main": "main.js",
+  "description": "js unit test projet TDD using qunit",
+  "main": "./app/fuzz-buzz.js",
   "scripts": {
-    "test": "node --harmony ./test/test-runner.js"
+    "test": "node --harmony ./test/fuzz-buzz-test.js"
   },
   "dependencies": {
-    "argsparser": "^0.0.6",
-    "cli-table": "^0.3.0",
-    "co": "^3.0.6",
-    "qunitjs": "1.10.0",
-    "tracejs": "^0.1.8",
-    "underscore": "^1.6.0"
+    "qunitjs": "1.10.0"
   },
-  "devDependencies": {
-    "chainer": "^0.0.5",
-    "timekeeper": "^0.0.4"
-  },
-  "author": "kha",
+  "author": "khaled2108",
   "license": "ISC"
 }
